@@ -92,7 +92,6 @@ Consultorio.prototype.buscarPaciente = function (paciente_buscar) {
 
         if ((element._getNombre) == paciente_buscar) {
             console.log("Paciente Encontrado con el nombre de : " + element._getNombre + " Rut : " + element._getRut + " Edad : " + element._getEdad + " Diagnostico: " + element._getDiagnostico + " en las dependencias de : " + consulto);
-            objetoEncontrado._getNombre = element._getNombre;
 
         }
     });
